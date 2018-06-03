@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f31c737-aeaa-42ff-a404-ad0d4c9b2194" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExceptionDispatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionDispatcher.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,20 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="ExceptionDispatcher.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ExceptionDispatcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Demo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="180">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -46,9 +38,9 @@
         <option value="$PROJECT_DIR$/src/Exceptions/AException.php" />
         <option value="$PROJECT_DIR$/src/Exceptions/BException.php" />
         <option value="$PROJECT_DIR$/src/Exceptions/AnError.php" />
-        <option value="$PROJECT_DIR$/src/ExceptionDispatcher.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/src/Demo.php" />
+        <option value="$PROJECT_DIR$/src/ExceptionDispatcher.php" />
       </list>
     </option>
   </component>
@@ -78,7 +70,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,6 +86,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,12 +125,13 @@
       <updated>1527967258819</updated>
       <workItem from="1527967260059" duration="43000" />
       <workItem from="1528029246345" duration="880000" />
-      <workItem from="1528030148240" duration="337000" />
+      <workItem from="1528030148240" duration="1200000" />
+      <workItem from="1528031383222" duration="266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1260000" />
+    <option name="totallyTimeSpent" value="2389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1366" height="770" extended-state="6" />
@@ -149,9 +142,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32967034" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32967034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -201,6 +194,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -210,18 +210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ExceptionDispatcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="15" />
-          <folding>
-            <element signature="e#26#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="180">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
         </state>
       </provider>
     </entry>

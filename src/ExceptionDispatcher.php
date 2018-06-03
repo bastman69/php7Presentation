@@ -3,10 +3,12 @@
 
 namespace Demo;
 
+use Demo\Exceptions\ {
+    AnError,
+    AException,
+    BException
+};
 
-use Demo\Exceptions\AException;
-use Demo\Exceptions\AnError;
-use Demo\Exceptions\BException;
 
 class ExceptionDispatcher
 {
@@ -24,4 +26,9 @@ class ExceptionDispatcher
     {
         throw new BException();
     }
+
 }
+
+$d = new ExceptionDispatcher();
+
+$d->throwAnError();
