@@ -1,11 +1,12 @@
 <?php
 
+
 require 'vendor/autoload.php';
 
-$dispatcher = new \Demo\ExceptionDispatcher();
+use Demo\Demo;
 
-try {
-    $dispatcher->throwAnError();
-} catch (Error $e) {
-    var_dump($e->getMessage());
-}
+$demo = new Demo();
+
+$demo->setIntField(5);
+
+var_dump($demo->getIntField());
